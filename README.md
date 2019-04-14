@@ -17,13 +17,13 @@ Create a restaurant ordering app where users can add, edit and delete orders.
   
 ## JSON Endpoints
     
-   ## JSON Endpoint of all shops
+   ## JSON Endpoint of all restaurants
    
-    @app.route('/shops/JSON/')
+   /restaurants/JSON
     
-   ## JSON Endpoint of Shopping Items
+   ## JSON Endpoint of orders
    
-    @app.route('/shops/<int:shopping_id>/ShoppingItem/JSON')
+   /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON
 
-   ## JSON Endpoint of specific shopping items
-    @app.route('/shops/<int:shopping_id>/ShoppingItem/<int:ShoppingItem_id>/JSON')
+   ## JSON Endpoint of specific order
+    /restaurants/<int:restaurant_id>/menu/JSON
