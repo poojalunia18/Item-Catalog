@@ -11,8 +11,8 @@ Create a restaurant ordering app where users can add, edit and delete orders.
   3. Change directory to vagrant 
   4. Launch Vagrant using the command vagrant ssh
   5. Initialize the database using python database_setup.py
-  6. Extract some data by executing python CatalogItems.py
-  7. Launch application python Shoppingmain.py
+  6. Extract some data by executing python menus.py
+  7. Launch application python project.py
   8. Open the browser and go to http://localhost:8000/
   
 ## JSON Endpoints
