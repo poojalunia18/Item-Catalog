@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a shopping app where users can add, edit and delete shops and shop items. 
+Create a restaurant ordering app where users can add, edit and delete orders. 
 
 ## Running the Program 
 
