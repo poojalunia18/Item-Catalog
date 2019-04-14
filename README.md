@@ -19,11 +19,11 @@ Create a restaurant ordering app where users can add, edit and delete orders.
     
    ## JSON Endpoint of all restaurants
    
-   /restaurants/JSON
+    /restaurants/JSON
     
    ## JSON Endpoint of orders
    
-   /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON
+    /restaurants/<int:restaurant_id>/menu/<int:menu_id>/JSON
 
    ## JSON Endpoint of specific order
     /restaurants/<int:restaurant_id>/menu/JSON
